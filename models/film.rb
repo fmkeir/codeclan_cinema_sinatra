@@ -78,6 +78,10 @@ class Film
     return films.map {|film| Film.new(film)}
   end
 
+  def self.find_by_name(name)
+    
+  end
+
   def self.delete_all
     sql = "DELETE FROM films"
     SqlRunner.run(sql)

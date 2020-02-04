@@ -1,0 +1,4 @@
+<!-- <h1> <%= @films.each {|film| film.title} %> </h1> -->
+<h1>  <% for film in @films %>
+        <%= film.title %> <br/>
+      <% end %> </h1>
