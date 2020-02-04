@@ -8,6 +8,10 @@ get "/film" do
   erb(:films)
 end
 
+get "/film/" do
+  redirect to "/film"
+end
+
 get "/film/:name" do
   @film = Film.find_by_name(params[:name].tr('_',' '))
   erb(:film_detail)
