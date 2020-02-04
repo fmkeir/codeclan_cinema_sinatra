@@ -9,5 +9,6 @@ get "/film" do
 end
 
 get "/film/:name" do
-  Film.find_by_name(params[:name].tr('_',' '))
+  @film = Film.find_by_name(params[:name].tr('_',' '))
+  erb(:film_detail)
 end
