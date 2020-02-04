@@ -19,6 +19,10 @@ film1 = Film.new({"title" => "Jojo Rabbit", "price" => 8})
 film1.save
 film2 = Film.new({"title" => "In Bruges", "price" => 5})
 film2.save
+film3 = Film.new({"title" => "Batman", "price" => 7})
+film3.save
+film4 = Film.new({"title" => "The Lord of the Rings", "price" => 12})
+film4.save
 
 screen1 = Screen.new({"capacity" => 10})
 screen1.save()

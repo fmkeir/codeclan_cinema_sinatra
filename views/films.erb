@@ -1,4 +1,4 @@
-<h1>  <% for film in @films %>
+<h2>  <% for film in @films %>
         <% link = film.title.tr(' ', '_') %>
         <a href="/film/<%=link%>"><%= film.title %></a> <br/>
-      <% end %> </h1>
+      <% end %> </h2>

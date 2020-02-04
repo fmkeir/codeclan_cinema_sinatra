@@ -1,0 +1,26 @@
+h1 {
+  font-size: 3rem;
+  color: #cc9900;
+}
+
+h2 {
+  font-size: 6rem;
+  color: #cc9900;
+}
+
+a {
+  text-decoration: none;
+  color: #cc9900;
+}
+
+a:hover {
+  text-shadow: 0 0 3rem white;
+}
+
+html {
+  background-color: #0059b3;
+}
+
+body {
+  text-align: center;
+}
